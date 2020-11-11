@@ -1,0 +1,9 @@
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\bin\Debug\netstandard2.0\InventoryManager.Data.deps.json
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\bin\Debug\netstandard2.0\InventoryManager.Data.dll
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\bin\Debug\netstandard2.0\InventoryManager.Data.pdb
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\obj\Debug\netstandard2.0\InventoryManager.Data.csprojAssemblyReference.cache
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\obj\Debug\netstandard2.0\InventoryManager.Data.AssemblyInfoInputs.cache
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\obj\Debug\netstandard2.0\InventoryManager.Data.AssemblyInfo.cs
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\obj\Debug\netstandard2.0\InventoryManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\obj\Debug\netstandard2.0\InventoryManager.Data.dll
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Data\obj\Debug\netstandard2.0\InventoryManager.Data.pdb

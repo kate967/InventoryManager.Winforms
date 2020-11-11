@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "+n3DGYVaFTgkq/VI6oSvQxEoab2azezoeuVolLkXJZwvXGl59SMLO1+TEKL9bdXqz9kAOuv8wTClvyF7M19++Q==",
+  "dgSpecHash": "OrSF3/eKrO89gBktEWWH2GwIkLSp+2yDSVraiCAOkApZ/BY1cz9v6YN+fGdBsPJRYpl0hQE7r/0eY5EgWRrAGw==",
   "success": true,
   "projectFilePath": "C:\\Users\\kaitl\\OneDrive\\Documents\\School\\DIG4778C\\InventoryManagerRepo\\InventoryManager.Winforms\\InventoryManager.Data\\InventoryManager.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kaitl\\.nuget\\packages\\fody\\6.3.0\\fody.6.3.0.nupkg.sha512",
     "C:\\Users\\kaitl\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\kaitl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\kaitl\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\kaitl\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\kaitl\\.nuget\\packages\\propertychanged.fody\\3.3.1\\propertychanged.fody.3.3.1.nupkg.sha512"
   ],
   "logs": []
 }

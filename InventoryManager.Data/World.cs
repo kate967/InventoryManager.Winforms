@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Dynamic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace InventoryManager.Data
@@ -18,6 +19,15 @@ namespace InventoryManager.Data
         {
             Players = new List<Player>();
             Items = new List<Item>();
+        }
+
+        [OnDeserialized]
+        private void OnDeserialized(StreamingContext context)
+        {
+            foreach(Player player in Players)
+            {
+                player.BuildInventoryFromName(Items);
+            }
         }
     } 
 }

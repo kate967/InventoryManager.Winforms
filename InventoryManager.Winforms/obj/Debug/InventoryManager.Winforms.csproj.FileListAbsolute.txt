@@ -16,3 +16,4 @@ C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\Inventory
 C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Winforms\obj\Debug\InventoryManager.Winforms.csproj.Fody.CopyLocal.cache
 C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Winforms\obj\Debug\InventoryManager.Winforms.Forms.AddPlayerForm.resources
 C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Winforms\obj\Debug\InventoryManager.Winforms.Forms.MainForm.resources
+C:\Users\kaitl\OneDrive\Documents\School\DIG4778C\InventoryManagerRepo\InventoryManager.Winforms\InventoryManager.Winforms\obj\Debug\InventoryManager.Winforms.Controls.EquippedItemControl.resources

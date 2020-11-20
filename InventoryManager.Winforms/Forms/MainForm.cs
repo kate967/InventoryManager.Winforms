@@ -10,6 +10,7 @@ using System.IO;
 using System.Windows.Forms;
 using InventoryManager.Data;
 using Newtonsoft.Json;
+using InventoryManager.Winforms.Controls;
 using InventoryManager.Winforms.ViewModels;
 using InventoryManager.Winforms.Forms;
 using System.Reflection;
@@ -52,6 +53,14 @@ namespace InventoryManager.Winforms.Forms
             InitializeComponent();
             ViewModel = new WorldViewModel();
             IsWorldLoaded = false;
+
+            mEquippedItemControlMap = new Dictionary<EquipLocations, EquippedItemControl>
+            {
+                {EquipLocations.LeftHand, leftHandEquippedItemControl },
+                {EquipLocations.RightHand, rightHandEquippedItemControl},
+                {EquipLocations.Head, headEquippedItemControl },
+                {EquipLocations.Feet, feetEquippedItemControl }
+            };
         }
 
         private void MainForm_Load(object sender, EventArgs e)
@@ -74,6 +83,12 @@ namespace InventoryManager.Winforms.Forms
         private void playersListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             deletePlayerButton.Enabled = playersListBox.SelectedItem != null;
+            
+            Player selectedPlayer = playersListBox.SelectedItem as Player;
+            foreach (var control in mEquippedItemControlMap.Values)
+            {
+                control.Player = selectedPlayer;
+            }
         }
 
         private void deletePlayerButton_Click(object sender, EventArgs e)
@@ -91,6 +106,13 @@ namespace InventoryManager.Winforms.Forms
             {
                 ViewModel.World = JsonConvert.DeserializeObject<World>(File.ReadAllText(openFileDialog.FileName));
                 ViewModel.Filename = openFileDialog.FileName;
+
+                Player selectedPlayer = playersListBox.SelectedItem as Player;
+                foreach (var control in mEquippedItemControlMap.Values)
+                {
+                    control.Player = selectedPlayer;
+                }
+
                 IsWorldLoaded = true;
             }
         }
@@ -116,6 +138,6 @@ namespace InventoryManager.Winforms.Forms
         }
         #endregion
 
-
+        private readonly Dictionary<EquipLocations, EquippedItemControl> mEquippedItemControlMap;
     }
 }
